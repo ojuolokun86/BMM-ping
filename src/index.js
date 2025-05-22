@@ -13,4 +13,4 @@ const wakeServer = () => {
 };
 
 // Set up a timer to wake the server every 40 seconds
-setInterval(wakeServer, 40000);
+setInterval(wakeServer, 10000);
