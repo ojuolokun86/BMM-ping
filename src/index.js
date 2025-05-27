@@ -1,6 +1,6 @@
 const { ping } = require('./utils/ping');
 
-const URL = 'https://bmm-tech.onrender.com'; // Replace with your server URL
+const URL = 'https://load-manager.fly.dev'; // Replace with your server URL
 
 const wakeServer = () => {
     ping(URL)
@@ -12,5 +12,5 @@ const wakeServer = () => {
         });
 };
 
-// Set up a timer to wake the server every 40 seconds
-setInterval(wakeServer, 40000);
+// Set up a timer to wake the server every 30 seconds
+setInterval(wakeServer, 30000);
