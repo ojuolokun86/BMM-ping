@@ -1,6 +1,6 @@
 const { ping } = require('./utils/ping');
 
-const URL = 'https://load-manager.fly.dev'; // Replace with your server URL
+const URL = 'https://load-manager.fly.dev/ping';
 
 const wakeServer = () => {
     ping(URL)
